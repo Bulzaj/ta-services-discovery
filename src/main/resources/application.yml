@@ -1,6 +1,10 @@
 server:
   port: 5000
 
+spring:
+  application:
+    name: ta-services-discovery
+
 eureka:
   client:
     register-with-eureka: false
